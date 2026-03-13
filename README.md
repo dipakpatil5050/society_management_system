@@ -1,55 +1,183 @@
-# Welcome to your Expo app 👋
+# 📱 Society Management App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
-
-## Get started
-
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+This is a mobile application built using **React Native** with **Expo**. The project allows fast development and easy preview on physical devices using the **Expo Go** app.
 
 ---
 
-package.json backup
-// "main": "expo-router/entry",
+# 🚀 Getting Started
+
+Follow the steps below to set up and run the project locally.
+
+---
+
+# 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/dipakpatil5050/society_management_system.git
+```
+
+Navigate into the project folder:
+
+```bash
+cd society_management_system
+```
+
+---
+
+# 2️⃣ Install Node Modules
+
+Make sure you have **Node.js** installed on your system.
+
+Then install project dependencies:
+
+```bash
+npm install
+```
+
+or if using yarn:
+
+```bash
+yarn install
+```
+
+---
+
+# 3️⃣ Install Expo CLI (Optional)
+
+If Expo CLI is not installed globally, install it:
+
+```bash
+npm install -g expo-cli
+```
+
+Alternatively, you can use **npx** without global install.
+
+---
+
+# 4️⃣ Start the Development Server
+
+Run the following command:
+
+```bash
+npm start
+```
+
+or
+
+```bash
+npx expo start
+```
+
+This will start the **Expo development server**.
+
+---
+
+# 5️⃣ Preview the App on Your Phone
+
+### Step 1: Install Expo Go
+
+Download the **Expo Go** app:
+
+* Android → Google Play Store
+* iOS → Apple App Store
+
+Search for **Expo Go** and install it.
+
+---
+
+### Step 2: Scan the QR Code
+
+After running the project, a **QR code** will appear in the terminal or browser.
+
+1. Open **Expo Go**
+2. Tap **Scan QR Code**
+3. Scan the QR code displayed in the terminal
+
+The app will load instantly on your device.
+
+---
+
+# 6️⃣ Run on Emulator (Optional)
+
+### Android Emulator
+
+Press:
+
+```bash
+a
+```
+
+inside the Expo terminal to open the Android emulator.
+
+---
+
+### iOS Simulator (Mac only)
+
+Press:
+
+```bash
+i
+```
+
+inside the Expo terminal.
+
+---
+
+# 🛠 Useful Commands
+
+Start development server
+
+```bash
+npm start
+```
+
+Run on Android
+
+```bash
+npm run android
+```
+
+Run on iOS
+
+```bash
+npm run ios
+```
+
+Run on Web
+
+```bash
+npm run web
+```
+
+Install new dependency
+
+```bash
+npm install package-name
+```
+
+---
+
+# ⚙️ Requirements
+
+* Node.js (LTS recommended)
+* npm or yarn
+* Expo Go (for mobile preview)
+
+---
+
+# 👨‍💻 Development Workflow
+
+1. Clone the repository
+2. Install dependencies
+3. Start the Expo server
+4. Scan the QR code using Expo Go
+5. Make code changes
+6. App reloads automatically with **Fast Refresh**
+
+---
+
+# 📄 License
+
+This project is licensed under the MIT License.
+
+---
